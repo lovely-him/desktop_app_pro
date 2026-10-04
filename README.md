@@ -1,24 +1,16 @@
 
-# 草稿
+# app_pro
 
----
+基于应用代码，复用于不同硬件、不同平台、不同 UI 框架。
 
-- 使用 python 虚拟环境
+- 本仓库自带桌面端运行环境，**可独立构建运行**
+- 平台（ESP-IDF / PlatformIO / nRF Connect SDK…）通过 git 子模块引用本仓库，各自实现硬件抽象层
+- 应用层与 UI 框架解耦：更换 UI 框架不影响业务逻辑与硬件抽象
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-deactivate
-```
+## 文档
 
-- 或不激活直接使用
-
-```bash
-.venv/bin/pip
-.venv/bin/python
-```
-
----
+开发约束（必须遵守的铁律）见 [`CLAUDE.md`](CLAUDE.md)；
+工具索引见 [`tools/README.md`](tools/README.md)。
+脚本细节见 [`scripts/README.md`](scripts/README.md)。
 
 
