@@ -7,7 +7,7 @@
 ## 依赖
 
 - Python 3 + `pyserial`
-- 现成可用：`tools/factory/.venv/bin/python`（已含 pyserial）
+- 现成可用：`.venv/bin/python`（已含 pyserial）
 - 或自行安装：`python3 -m pip install pyserial`
 
 ## 用法

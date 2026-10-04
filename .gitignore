@@ -5,7 +5,13 @@
 #
 build/
 .venv/
+dependencies/
 
 #
 logs/
 .tmp/
+
+#
+__pycache__/
+*.pyc
+
