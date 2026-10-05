@@ -6,4 +6,5 @@
 | 工具 | 说明 | 文档 |
 | --- | --- | --- |
 | `setup` | 创建 `.venv` 并按 `requirements.txt` 安装 Python 依赖，按 `repos.json` 拉取第三方库到 `dependencies/` | [`setup/README.md`](setup/README.md) |
+| `cmake` | 配置 / 编译 / 清理桌面端构建（产物 `build/desktop/`，日志 `build/logs/`） | [`cmake/README.md`](cmake/README.md) |
 

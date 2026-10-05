@@ -12,5 +12,6 @@
 开发约束（必须遵守的铁律）见 [`CLAUDE.md`](CLAUDE.md)；
 工具索引见 [`tools/README.md`](tools/README.md)。
 脚本细节见 [`scripts/README.md`](scripts/README.md)。
+平台适配见 [`platforms/README.md`](platforms/README.md)。
 
 
