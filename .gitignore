@@ -6,6 +6,7 @@
 build/
 .venv/
 dependencies/
+.env
 
 #
 logs/

@@ -15,6 +15,7 @@ setup_venv() {
         python3 -m venv "$ROOT_DIR/.venv"
     fi
     "$ROOT_DIR/.venv/bin/pip" install --requirement "$ROOT_DIR/requirements.txt"
+    [ -e "$ROOT_DIR/.env" ] || : > "$ROOT_DIR/.env"
 }
 
 fetch_deps() {
